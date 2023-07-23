@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    font-weight: 200;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Rubik, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 270%;
+    margin-left: 19px
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* home image */
+
+#home-image-outer {
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+#home-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/home-image.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page */
+    animation-name: image-zoom;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for home image*/
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+/* images*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    color: #161212;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-section {
+    clear: left;
+    background: url('../images/test4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.feedback-form {
+    margin: 50px 10% 0 0;
+    color: #fff;
+    background-color: rgba(194, 36, 36, 0.6);
+    max-width: 800px;
+    position: absolute;
+    left: 10%;
+    padding: 10px;
+}
+
+.feedback-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+input[type="radio"],
+button {
+    margin-right: 1rem;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+
+/* radio buttons */
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.radio-container {
+    display: inline-flex;
+}
+
+/* feedback button */
+.feedback-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ff7644;
+    color: #fafafa;
+    display: block;
+}
+
+.feedback-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* footer */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Media queries */
+
+/* For medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #menu {
+        font-size: small;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    #logo {
+        font-size: 100%;
+    }
+
+    .feedback-form {
+        max-width: 400px;
+    }
+
+    .feedback-form h2 {
+        font-size: small;
+    }
+
+    label {
+        font-size: small;
+    }
+
+    .feedback-button {
+        font-size: small;
+    }
+}
