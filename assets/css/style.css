@@ -186,7 +186,7 @@ button:hover {
 .form-section {
     margin-top: 100px;
     clear: left;
-    background: url('../images/test4.jpg');
+    background: url('../images/feedback-image.jpg');
     background-size: cover;
     background-position: center;
     height: 800px;
@@ -267,6 +267,27 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+.sponsor-section {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sponsor-section h2 {
+  margin-bottom: 20px;
+}
+
+.sponsor-section img {
+  max-width: 100px; 
+  max-height: 100px; 
+  margin: 0 10px;
+}
+
 
 /* Media queries */
 
