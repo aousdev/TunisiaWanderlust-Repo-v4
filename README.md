@@ -84,6 +84,9 @@ Each characteristic of the website become cautiously examined to make sure its e
 ### Unfixed Bugs
 - Image Loading Delay: In some instances, customers can also revel in a moderate put off in image loading, specifically whilst having access to the website on slower internet connections. This difficulty can have an effect on the overall person experience and create a belief of sluggish loading times. We are actively exploring photograph optimization techniques to improve loading velocity and offer a smoother surfing enjoy.
 
+- Incomplete Mobile Responsiveness: Some elements of the website may not display or function optimally on certain mobile devices.
+   - **Details**: While our site uses responsive design principles to adapt to different screen sizes, some elements may not resize correctly, or may be improperly positioned on the screen, especially on smaller mobile devices. This could lead to a sub-optimal user experience, where text may be too small to read comfortably, or interactive elements may be difficult to use.
+
 ### Future Testing
 While thorough checking out has been carried out, we apprehend that customers' studies may additionally range. We inspire customers to offer comments and file any problems they come upon, supporting us constantly enhance Tunisia Wanderlust and deal with any unexpected problems right away.
 
