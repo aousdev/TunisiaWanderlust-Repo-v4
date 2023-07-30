@@ -2,8 +2,6 @@
 
 Welcome to Tunisia Wanderlust, a charming static website that invitations you on a digital adventure to discover the wonders of Tunisia, a enthralling North African vacation spot. This internet site is designed to showcase the diverse landscapes, wealthy culture, and historical landmarks that Tunisia has to offer. Whether you're an avid tourist or virtually curious about this spellbinding country, Tunisia Wanderlust will provide you with a glimpse of its beauty and allure.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/tunisia-wanderlust_mockup.png)
-
 ## Features
 
 ### Existing Features
@@ -15,25 +13,36 @@ Welcome to Tunisia Wanderlust, a charming static website that invitations you on
 
 ![Nav Bar](media/nav-bar.png)
 
--  __Home Page__
-  - The Home page includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+- __Home Page__
+
+  - The Home web page functions a photograph with a textual content overlay, offering the person with a glimpse of the lovely landscapes they'll be looking through this web site.
   - This section introduces the user to Tunisia Wanderlust with an eye catching animation to grab their attention.
 
 ![Screenshot of Tunisia Wanderlust Homepage](media/home-page.png)
 
 - __Explore Tunisia__
 
-- **Landscape Showcase:** Immerse yourself inside the natural splendor of Tunisia through a set of captivating photographs showcasing its breathtaking landscapes, such as its lovely sea perspectives, majestic mountains, and sizable desolate tract vistas.
+  - **Landscape Showcase:** Immerse yourself inside the natural splendor of Tunisia through a set of captivating photographs showcasing its breathtaking landscapes, such as its lovely sea perspectives, majestic mountains, and wide desert landscapes.
 
-- **Mosques of Tunisia:** Discover the problematic structure and cultural importance of Tunisia's mosques, capturing the essence of this united states's non secular historical past.
+  - **Mosques of Tunisia:** Explore the intricate architecture and cultural significance of Tunisia's mosques, encapsulating the essence of the country's rich spiritual heritage.
 
 ![Screenshot of Tunisia Wanderlust ExploreTunisiaPage ](media/explore-tunisia-page.png)
 
 - __Feedback Page__
 
-- **Rate Your Virtual Journey:** Share your enjoy of the digital experience to Tunisia through filling out our feedback form. Let us recognize how lots you loved your on line adventure and what we can do to decorate your experience within the destiny.
+  - **Rate Your Virtual Journey:** Share your enjoy of the digital experience to Tunisia through filling out our feedback form. Let us recognize how lots you loved your on line adventure and what we can do to improve your experience in the future.
 
 ![Screenshot of Tunisia Wanderlust FeedbackPage ](media/feedback-page.png)
+
+- __Footer__
+
+  - **Powered By** This project is proudly powered by our sponsors:
+
+![Screenshot of Tunisia Wanderlust PoweredBy Section ](media/powered-by-section.png)
+
+  - **Social Network** You can also follow us and get updates on these social media platforms:
+
+![Screenshot of Tunisia Wanderlust Social Network Section](media/social-network-section.png)
 
 ### Features Left to Implement
 - Interactive Map: Integrate an interactive map of Tunisia that permits users to explore unique regions, landmarks, and points of interest. Users can click on on map markers to view greater statistics and pix of specific places.
@@ -77,4 +86,5 @@ Each characteristic of the website become cautiously examined to make sure its e
 While thorough checking out has been carried out, we apprehend that customers' studies may additionally range. We inspire customers to offer comments and file any problems they come upon, supporting us constantly enhance Tunisia Wanderlust and deal with any unexpected problems right away.
 
 ## Credits
-The snap shots used on the "Home" and "Explore Tunisia" web page have been sourced from an open source inventory image website namely Pixabay. The snap shots were carefully chosen to show off Tunisia's numerous landscapes, inclusive of its beautiful sea perspectives, majestic mountains, and great deserts.
+- The snap shots used on the "Home" and "Explore Tunisia" web page have been sourced from an open source inventory image website namely Pixabay. The snap shots were carefully chosen to show off Tunisia's numerous landscapes, inclusive of its beautiful sea perspectives, majestic mountains, and great deserts.
+- The logos featured within the "Powered By" section were procured from the open-supply logo repository, "Seek Logo."
