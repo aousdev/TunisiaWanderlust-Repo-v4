@@ -20,8 +20,8 @@ body {
     background-color: #fff;
     z-index: 100; /* Set a high z-index value to ensure it appears above other elements */
 }
-/* headings and logo */
 
+/* headings and logo */
 h1,
 h2 {
     font-family: Rubik, sans-serif;
@@ -73,6 +73,7 @@ h2 {
     height: 600px;
     width: 100%;
     clear: both;
+    position: relative;
 }
 
 #home-image {
@@ -108,11 +109,11 @@ h2 {
 }
 
 #cover-text h1 {
-    font-size: 3rem; /* Adjust the font size as needed */
+    font-size: 3rem;
 }
 
 #cover-text h3 {
-    font-size: 1.5rem; /* Adjust the font size as needed */
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
@@ -305,7 +306,7 @@ footer {
 
 /* For small screen sizes below 800px width */
 @media screen and (max-width: 800px) {
-    #menu {
+    #menu, #cover-text h1, #cover-text h3 {
         font-size: small;
     }
 
