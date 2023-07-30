@@ -93,3 +93,13 @@ While thorough checking out has been carried out, we apprehend that customers' s
 ## Credits
 - The snap shots used on the "Home" and "Explore Tunisia" web page have been sourced from an open source inventory image website namely Pixabay. The snap shots were carefully chosen to show off Tunisia's numerous landscapes, inclusive of its beautiful sea perspectives, majestic mountains, and great deserts.
 - The logos featured within the "Powered By" section were procured from the open-supply logo repository, "Seek Logo."
+
+## Acknowledgments
+
+This project has been informed and improved by the use of external resources. Here, I would like to express my thanks to:
+
+- [Code Institute](https://codeinstitute.net/global/) for providing the README template that I used as a foundation for this document. It was an invaluable resource in structuring my project's documentation.
+  
+- I've also incorporated some CSS rules and HTML structures from the [Love Running project](https://github.com/aousdev/love-running), also provided within the course material by Code Institute. These resources significantly helped me in building and styling my own project.
+
+I express our sincere appreciation to the original authors and contributors of these resources.
