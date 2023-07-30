@@ -2,6 +2,8 @@
 
 Welcome to Tunisia Wanderlust, a charming static website that invitations you on a digital adventure to discover the wonders of Tunisia, a enthralling North African vacation spot. This internet site is designed to showcase the diverse landscapes, wealthy culture, and historical landmarks that Tunisia has to offer. Whether you're an avid tourist or virtually curious about this spellbinding country, Tunisia Wanderlust will provide you with a glimpse of its beauty and allure.
 
+![Responsive Mockup](media/mockup.png)
+
 ## Features
 
 ### Existing Features
