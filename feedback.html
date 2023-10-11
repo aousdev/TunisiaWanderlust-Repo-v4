@@ -19,8 +19,8 @@
   <body>
     <header>
       <div class="nav-bar-container">
-        <i class="fas fa-heartbeat" aria-hidden="true"></i>
         <a href="index.html">
+          <i class="fas fa-heartbeat" aria-hidden="true"></i>
           <h1 id="logo">Welcome to Tunisia Wanderlust</h1>
         </a>
         <nav>
@@ -38,46 +38,79 @@
         </nav>
       </div>
     </header>
-    <section class="form-section">
-      <form
-        class="feedback-form"
-        action="https://formdump.codeinstitute.net/"
-        method="Post"
-      >
-        <h2>Tunisia Virtual Trip Survey</h2>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="first_name" required /><br />
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="last_name" required /><br />
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" required />
-        <label for="age">Age:</label>
-        <select id="age" name="age" required>
-          <option value="">Select age range</option>
-          <option value="teenager">13 - 19 years (Teenager)</option>
-          <option value="adult">20 - 59 years (Adult)</option>
-          <option value="aged_adult">60+ years (Aged Adult)</option>
-        </select>
+    <main>
+      <div class="form-section">
+        <form
+          class="feedback-form"
+          action="https://formdump.codeinstitute.net/"
+          method="Post"
+        >
+          <h2>Tunisia Virtual Trip Survey</h2>
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="first_name" required /><br />
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="last_name" required /><br />
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email_address" required />
+          <label for="age">Age:</label>
+          <select id="age" name="age" required>
+            <option value="">Select age range</option>
+            <option value="teenager">13 - 19 years (Teenager)</option>
+            <option value="adult">20 - 59 years (Adult)</option>
+            <option value="aged_adult">60+ years (Aged Adult)</option>
+          </select>
 
-        <fieldset>
-          <legend>How much do you rate your online trip?</legend>
-          <div class="radio-container">
-            <input type="radio" id="rating1" name="rating" value="1" required />
-            <label for="rating1">1 (Not Satisfactory)</label>
-            <input type="radio" id="rating2" name="rating" value="2" required />
-            <label for="rating2">2 (Fair)</label>
-            <input type="radio" id="rating3" name="rating" value="3" required />
-            <label for="rating3">3 (Good)</label>
-            <input type="radio" id="rating4" name="rating" value="4" required />
-            <label for="rating4">4 (Very Good)</label>
-            <input type="radio" id="rating5" name="rating" value="5" required />
-            <label for="rating5">5 (Excellent)</label>
-          </div>
-        </fieldset>
+          <fieldset>
+            <legend>How much do you rate your online trip?</legend>
+            <div class="radio-container">
+              <input
+                type="radio"
+                id="rating1"
+                name="rating"
+                value="1"
+                required
+              />
+              <label for="rating1">1 (Not Satisfactory)</label>
+              <input
+                type="radio"
+                id="rating2"
+                name="rating"
+                value="2"
+                required
+              />
+              <label for="rating2">2 (Fair)</label>
+              <input
+                type="radio"
+                id="rating3"
+                name="rating"
+                value="3"
+                required
+              />
+              <label for="rating3">3 (Good)</label>
+              <input
+                type="radio"
+                id="rating4"
+                name="rating"
+                value="4"
+                required
+              />
+              <label for="rating4">4 (Very Good)</label>
+              <input
+                type="radio"
+                id="rating5"
+                name="rating"
+                value="5"
+                required
+              />
+              <label for="rating5">5 (Excellent)</label>
+            </div>
+          </fieldset>
 
-        <input class="feedback-button" type="submit" value="Submit" />
-      </form>
-    </section>
+          <input class="feedback-button" type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+
     <footer>
       <div class="sponsor-section">
         <h2>Powered By:</h2>
@@ -109,40 +142,40 @@
           />
         </a>
       </div>
-      <ul class="social-networks">
-        <li>
+      <div class="social-networks">
+        <div>
           <a
             href="https://www.facebook.com"
             target="_blank"
             aria-label="Visit our Facebook page"
             ><i class="fab fa-facebook"></i
           ></a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.twitter.com"
             target="_blank"
             aria-label="Visit our Twitter page"
             ><i class="fab fa-twitter-square"></i
           ></a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.youtube.com"
             target="_blank"
             aria-label="Visit our Youtube page"
             ><i class="fab fa-youtube"></i
           ></a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a
             href="https://www.instagram.com"
             target="_blank"
             aria-label="Visit our Instagram page"
             ><i class="fab fa-instagram"></i
           ></a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- font awesome script -->
