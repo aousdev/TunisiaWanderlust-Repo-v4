@@ -10,6 +10,7 @@ body {
   font-family: Rubik, sans-serif;
   font-weight: 200;
   color: #3a3a3a;
+  overflow-x: hidden;
 }
 /* Styles for the nav-bar-container */
 .nav-bar-container {
