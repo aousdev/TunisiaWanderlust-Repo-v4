@@ -90,6 +90,11 @@ Each characteristic of the website become cautiously examined to make sure its e
 ### Future Testing
 While thorough checking out has been carried out, we apprehend that customers' studies may additionally range. We inspire customers to offer comments and file any problems they come upon, supporting us constantly enhance Tunisia Wanderlust and deal with any unexpected problems right away.
 
+### Deployment
+The website has been deployed using GitHub Pages. Here's a step-by-step breakdown of the deployment process:
+
+Navigate to your GitHub repositories and locate the 'TunisiaWanderlust' repository. Access the 'Settings' tab located just above the green GitHub button. On the left side of the page, scroll down and click on the 'Pages' section. Under the 'Branch' subheading, use the dropdown menu to select the 'main' branch and then click 'Save'. After selecting the main branch, the page will refresh. A notification will subsequently appear, confirming the successful deployment.
+
 ## Credits
 - The snap shots used on the "Home" and "Explore Tunisia" web page have been sourced from an open source inventory image website namely Pixabay. The snap shots were carefully chosen to show off Tunisia's numerous landscapes, inclusive of its beautiful sea perspectives, majestic mountains, and great deserts.
 - The logos featured within the "Powered By" section were procured from the open-supply logo repository, "Seek Logo."
